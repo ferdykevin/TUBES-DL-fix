@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
+ehthumbs.db
+~$*
+
+# Large model and data files
+*.h5
+*.npy
+*.npz
+deployment_files/embedding_model.h5
+deployment_files/skincare_model.h5
+deployment_files/product_embeddings.npy
+deployment_files/similarity_matrix.npy
+
+# Logs and environment
+*.log
+.env
+
+# Keep tracked: CSVs, code, notebooks intentionally excluded above
